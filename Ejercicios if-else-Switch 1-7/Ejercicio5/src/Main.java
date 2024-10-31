@@ -16,16 +16,16 @@ public class Main {
 
         if (lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado2 + lado3 > lado1) {
             if ((lado1 == lado2) && (lado2 == lado3)) {
-                System.out.println("Su Triangulo es Equilátero.");
+                System.out.println("Su Triangulo es Equilátero");
             }
             else if ((lado1 == lado2) || (lado1 == lado3) || (lado2 == lado3)) {
-                System.out.println("Su Triangulo es Isósceles.");
+                System.out.println("Su Triangulo es Isósceles");
             }
             else {
-                System.out.println("Su Triangulo es Escaleno.");
+                System.out.println("Su Triangulo es Escaleno");
             }
         } else {
-            System.out.println("Las longitudes no forman un triángulo válido.");
+            System.out.println("No es un triangulo");
         }
     }
 }
